@@ -106,7 +106,8 @@ h6 { font-size: 16px;}
 }
 
 #navigation a{
-    color: var(--mainText)
+    color: var(--mainText);
+    position: sticky;
 }
 
 #navigation{
