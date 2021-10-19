@@ -16,11 +16,8 @@
     --btnColor: black;
 }    
 
-html{
-    scroll-behavior: smooth;
-}
-
 html, body{
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
 }
