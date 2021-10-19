@@ -16,6 +16,10 @@
     --btnColor: black;
 }    
 
+html{
+    scroll-behavior: smooth;
+}
+
 html, body{
     padding: 0;
     margin: 0;
