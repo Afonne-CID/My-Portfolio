@@ -248,19 +248,24 @@
     <section class="s2">
         <div class="main-container">
             <h2 style="text-align: center;">Get In Touch</h2>
+		<ul>
+			<li>Email: afonnedigital@gmail.com</li>
+			<li>Twitter: @__cid___</li>
+		</ul>
+
             <form id="contact-form" method="POST" data-netlify="true">
 
                 <label for="name">Name</label>
-                <input type="text" class="input-field" name="name">
+                <input type="text" class="input-field" name="name" readonly>
 
                 <label for="subject">Subject</label>
-                <input type="text" class="input-field" name="subject">
+                <input type="text" class="input-field" name="subject" readonly>
 
                 <label for="email">Email</label>
-                <input type="text" class="input-field" name="email">
+                <input type="text" class="input-field" name="email" readonly>
 
                 <label for="message">Message</label>
-                <textarea class="input-field" name="message"></textarea>
+                <textarea class="input-field" name="message" readonly></textarea>
 
                 <input id="submit-btn" type="submit" value="Send">
             </form>
